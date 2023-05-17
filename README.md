@@ -28,6 +28,7 @@ This model did not achieve the minimum required performance of 75%
 **4 optimisations were run on this dataset to come up with a model that provided higher accuracy and lower loss**
 
 **Optimisation 1**
+
 Increased the number of values of each bin - `APPLICATION` AND `CLASSIFICATION` and reduced the numb er of neurons to 12, 6 and 1
 
 ![Screenshot 2023-05-16 at 9 46 33 PM](https://github.com/Geetraje/deep-learning-challenge/assets/119769357/8db24549-f003-4572-98d2-91d770da3103)
@@ -39,6 +40,7 @@ This model did not achieve 75% accuracy
 ![Screenshot 2023-05-16 at 9 47 53 PM](https://github.com/Geetraje/deep-learning-challenge/assets/119769357/52966910-d85f-4083-afdb-b3d3777de049)
 
 **Optimization 2**
+
 The variable `NAME` column was retained and an additional hidden layer was added with `relu` activation
 
 ![Screenshot 2023-05-16 at 9 53 02 PM](https://github.com/Geetraje/deep-learning-challenge/assets/119769357/183c34d0-95cc-4617-9c63-e57e221c15a8)
@@ -59,6 +61,7 @@ This model was a success with an accuracy of 77.93%
 
 
 ## Summary
+
 This model using TensorFlow and Keras was able to provide a prediction with an accuracy of 78% by manipulating and choosing variables, layers, number of neurons and binning values over numerous attempts.
 
 I would recommend using the Random Foerst Classifier or a Support Vector Machine to try to achieve higher accuracy and a lower loss. Both of these models are effective in binary classification, can handle both numerical and categorical variables and address imbalanced datasets and outliers if they are present in this dataset.
